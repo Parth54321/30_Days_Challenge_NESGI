@@ -1,4 +1,4 @@
-def find_missing_and_repeating(nums):
+def missing_and_repeating(nums):
     n = len(nums)
     expected_sum = n * (n + 1) // 2
     expected_square_sum = sum(i ** 2 for i in range(1, n + 1))
@@ -16,5 +16,5 @@ def find_missing_and_repeating(nums):
     return x, y
 
 array = [3, 1, 3]
-repeating, missing = find_missing_and_repeating(array)
+repeating, missing = missing_and_repeating(array)
 print(f"Missing number: {repeating}, Repeating number: {missing}")
