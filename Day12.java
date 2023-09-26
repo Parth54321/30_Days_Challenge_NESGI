@@ -8,7 +8,7 @@ public class Day12 {
                 return nums[i];
             }
         }
-        return -1; // If no duplicate found
+        return -1; 
     }
 
     public static void main(String[] args) {
